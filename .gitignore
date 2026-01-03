@@ -1,1 +1,16 @@
-boto3
+# Entornos virtuales
+.venv/
+env/
+venv/
+
+# Archivos de Python
+__pycache__/
+*.pyc
+
+# Reportes (No queremos subir los resultados de nuestra auditoría, solo el código)
+*.csv
+
+# Seguridad (Por si acaso descargas tus llaves de AWS en esta carpeta)
+*.csv
+*.key
+*.json
